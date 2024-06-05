@@ -22,17 +22,17 @@ const Hero = () => {
         </div>
         <div className="flex mt-20">
           <div className="flex flex-col justify-center items-center pr-8 border-r-2 border-black">
-            <img src={leafImg} alt="" />
+            <img src={leafImg} alt="" className="w-8" />
             <span className="mt-4 font-bold">Fresco</span>
           </div>
 
           <div className="flex flex-col justify-center items-center px-8 border-r-2 border-black">
-            <img src={rocketImg} alt="" />
+            <img src={rocketImg} alt="" className="w-8" />
             <span className="mt-4 font-bold">Rapido</span>
           </div>
 
           <div className="flex flex-col justify-center items-center pl-8">
-            <img src={headphonesImg} alt="" />
+            <img src={headphonesImg} alt="" className="w-8" />
             <span className="mt-4 font-bold">Soporte</span>
           </div>
         </div>
