@@ -30,16 +30,16 @@ const Header = () => {
           </button>
         </div>
         <div className="hidden lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-10">
-          <span className="cursor-pointer font-semibold hover:text-teal-500">
+          <span className="cursor-pointer font-normal hover:text-teal-500">
             Contacto
           </span>
-          <span className="cursor-pointer font-semibold hover:text-teal-500">
+          <span className="cursor-pointer font-normal hover:text-teal-500">
             Nosotros
           </span>
-          <span className="cursor-pointer font-semibold hover:text-teal-500">
+          <span className="cursor-pointer font-normal hover:text-teal-500">
             Menu
           </span>
-          <span className="cursor-pointer font-semibold hover:text-teal-500">
+          <span className="cursor-pointer font-normal hover:text-teal-500">
             Reservacion
           </span>
         </div>
