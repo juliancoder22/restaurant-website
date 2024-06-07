@@ -6,7 +6,7 @@ import headphonesImg from "../../assets/headphones.svg";
 const Hero = () => {
   return (
     <div className="bg-white h-screen flex justify-between flex-col lg:flex-row">
-      <div className="flex w-full flex-col justify-center p-10 lg:w-2/4">
+      <div className="flex w-full flex-col justify-center p-10 lg:w-2/4 lg:p-20">
         <h1 className="text-5xl text-center font-bold leading-normal lg:text-start lg:text-6xl lg:leading-relaxed">
           Comida casera,
           <br /> saludable y <br />
