@@ -1,0 +1,11 @@
+.little-circle {
+  position: absolute;
+  right: 12rem;
+  bottom: 5rem;
+}
+
+.circle {
+  position: absolute;
+  right: 0;
+  bottom: 18em;
+}
