@@ -8,12 +8,14 @@ const Specialties = () => {
     <div className="flex flex-col overflow-x-hidden">
       <div className="flex flex-col lg:flex-row lg:justify-center">
         <div className="flex flex-col lg:w-2/4 justify-center relative p-10 lg:p-20 xl:p-40">
-          <img src={circle1} className="w-20 absolute left-0" />
-          <h1 className="text-6xl uppercase font-normal">Especialidades</h1>
+          <img src={circle1} className="w-20 absolute left-0 hidden lg:block" />
+          <h1 className="text-4xl md:text-5xl uppercase font-normal">
+            Especialidades
+          </h1>
           <span className="text-teal-500 text-lg font-semibold mt-10 lg:mt-24">
             Postres
           </span>
-          <h2 className="text-5xl font-semibold mt-5 lg:mt-10">
+          <h2 className="text-4xl md:text-5xl font-semibold mt-5 lg:mt-10">
             Yogurt Griego con <br />
             Semillas y Fresas
           </h2>
@@ -33,21 +35,24 @@ const Specialties = () => {
         <img
           src={yogurtDish}
           alt="yogurt"
-          className="w-full lg:w-2/4 p-10 lg:p-20 xl:p-36"
+          className="w-full lg:w-2/4 p-10 lg:p-20 xl:p-36 hidden"
         />
       </div>
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-0">
         <img
           src={soupDish}
           alt="soup"
-          className="w-full lg:w-2/4 p-10 lg:p-20 xl:p-24"
+          className="w-full lg:w-2/4 p-10 lg:p-20 xl:p-24 hidden"
         />
         <div className="flex flex-col lg:w-2/4 justify-center relative p-10 lg:p-20 xl:p-40">
-          <img src={circle2} className="w-20 absolute right-0" />
+          <img
+            src={circle2}
+            className="w-20 absolute right-0 hidden lg:block"
+          />
           <span className="text-teal-500 text-lg font-semibold mt-10 lg:mt-20 ">
             Almuerzos
           </span>
-          <h2 className="text-5xl font-semibold mt-5 lg:mt-10">
+          <h2 className="text-4xl md:text-5xl font-semibold mt-5 lg:mt-10">
             Sopa de Mani con <br /> garbanzo
           </h2>
           <p className="mt-5 lg:mt-10 lg:pr-10">
